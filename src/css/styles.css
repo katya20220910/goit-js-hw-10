@@ -12,9 +12,31 @@ body {
   line-height: 1.5;
 }
 
+p {
+  font-size: 30px;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  color: blueviolet;
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-body {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-title {
+  font-size: 60px;
+  display: flex;
+ justify-content: center;
+  align-items: center;
 }
